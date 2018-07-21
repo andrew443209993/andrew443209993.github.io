@@ -60,7 +60,7 @@ var timerFIG = 3600; // Время в секундах, через которо�
 var timer = setInterval("startTimer()",1000);
 var tim = 1;
 function startTimer() {
-  if (btns[16].className == "btn active" && tim==1) {timerFIG=5; tim = 0;} else{}
+  if (btns[16].className == "btn active" && tim==1) {timerFIG=15; tim = 0;} else{}
 if(timerFIG !== 1) {
 timerFIG--;
 } else {
