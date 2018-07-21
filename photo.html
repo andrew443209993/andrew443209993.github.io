@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Начало</title>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="photo.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body {
+			min-width: 1120px;
+			 margin: 0;
+			 width: 100%;
+			 /*height: 100%;*/
+			/*justify-content: center;*/
+			 /*display: flex;
+			 flex-wrap:  wrap;
+			 flex-direction: column;*/
+			background-image: url(wallhaven-662973.jpg);
+			background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<header class="header"></header>
+	<div id="navbar">
+			<a id="main" href="index.html">Главная</a></li>
+			<a href="inception.html">Начало</a></li>
+			<a href="parents.html">Родители</a></li>
+			<a class="active" href="photoMain.html">Фото</a></li>
+			<a href="about.html">О сайте</a></li>
+	</div>
+
+
+<!-- <div  class="text_centre" style=" text-align: center; color: red;">Slideshow Gallery</div> -->
+
+
+
+<div  class="container"  margin: 2% 25% 0% 25%">
+   <button onclick="openFullscreen();" class="btn"><span class="glyphicon glyphicon-fullscreen"></span> </button>
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img id="myImg1" src="tai1.jpg" style="width: 100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img id="myImg2" src="tai2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img id="myImg3" src="tai3.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img id="myImg4" src="tai4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img id="myImg5" src="tai5.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img id="myImg6" src="tai6.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="tai1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Tri Trang Beach">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tai2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Hanuman Park">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tai3.jpg" style="width:100%" onclick="currentSlide(3)" alt="FantaSea">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tai4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Nai Horn Beach">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tai5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Karon View Point">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="tai6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Dolchevita">
+    </div>
+  </div>
+</div>
+
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <a class="prev prev_next" onclick="slidePlus(-1)">❮</a>
+  <a class="next prev_next" onclick="slidePlus(1)">❯</a>
+  
+</div>
+
+
+<script type="text/javascript" src="script2.js"></script>
+</body>
+</html>

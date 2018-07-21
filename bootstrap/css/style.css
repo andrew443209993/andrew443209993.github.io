@@ -1,0 +1,61 @@
+header{
+	
+	 display: block; /* Для старых браузеров */
+	 height: 250px; /* Высота шапки */
+	 width: 100%;
+	 background: url(https://www.therange.co.uk/_m3/0/1/1518428929_3758.jpg) no-repeat center top;
+	
+}
+p{
+
+	color: #D4886A;
+	line-height: 20px;
+	border: 5px solid #2E4172;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	
+}
+.semiopasity {
+float: right;
+			width: 30%;
+			padding: 15px;
+			background-color: #41e8f4;
+			opacity: 0.9;
+			
+			}
+
+	.menu {
+		margin: 0%;
+		text-align: center;
+		/*position: relative;
+    float: left top;*/  
+    	list-style: none;
+    	font: 30px Arial;
+}
+li{
+	display: inline-block;
+
+}
+a{
+	cursor: pointer;
+	color: white;
+	margin: 0;
+	border: 2px solid #343477;
+	background-color: #087CBB;
+	padding: 5px 20px;
+}
+
+a:hover {
+background-color: #FFC600;
+}
+
+.imagge{
+	float: left;
+}
+
+.col {
+	background-color: orange;
+	color: white;
+	
+}
